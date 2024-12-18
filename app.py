@@ -50,7 +50,7 @@ def run():
 
     # Try to set background image
     try:
-        set_background('ba.jpg')  # Make sure to add this file
+        set_background('background_image.jpg')  # Make sure to add this file
     except FileNotFoundError:
         st.warning("Background image not found. Using default background.")
 
